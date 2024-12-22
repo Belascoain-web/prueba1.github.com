@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+      font-family: "Archivo Black", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    background-image: url(fondo.png); 
+
+  }
+
+.resolucion {
+
+    width: 100%;
+
+}
+
+ 
+  
+  
+  .desplazamiento {
+    width: 100%;
+    padding: 15px;
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    z-index: 1000; 
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1px;
+   
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    
+}
+
+
+
+.contenedor {
+   
+    height: 600px;
+    color: white;
+    justify-content: center; /* Centrar horizontalmente */
+  align-items: center;    /* Centrar verticalmente */
+  top: 50%;
+  
+
+}
+
+.contenedor h2 {
+    color: orange;
+}
+
+
+.enlaces {
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1px;
+    font-size: 20px;
+    
+  }
+  
+  .enlace {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .texto2 {
+    color: orange;
+    font-family: "Archivo Black", sans-serif;
+  }
+  
+  .llamanos {
+    background-color: rgba(255, 166, 0, 0.774);
+    height: 300px;
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center;    /* Centrar verticalmente */
+  }
+  
+  .enlaces a:hover {
+    color: black;
+  }
+  
+  .navbar-nav .ms-auto .nav a:hover {
+    color: black;
+  }
+  
+
+  .whatsapp-float {
+    position: fixed;         /* Para que se mantenga fijo al desplazarse */
+    bottom: 20px;            /* Distancia desde la parte inferior */
+    right: 20px;             /* Distancia desde la parte derecha */
+    background-color: #25D366; /* Color de fondo oficial de WhatsApp */
+    color: white;            /* Color del icono */
+    border-radius: 50%;      /* Forma circular */
+    width: 60px;             /* Tamaño del botón */
+    height: 60px;            /* Tamaño del botón */
+    display: flex;           /* Centrar el icono */
+    justify-content: center; /* Centrar el icono horizontalmente */
+    align-items: center;     /* Centrar el icono verticalmente */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Sombra para el botón */
+    z-index: 1000;           /* Asegura que esté por encima de otros elementos */
+    text-decoration: none;   /* Elimina subrayado */
+  }
+  
+  /* Efecto al pasar el cursor */
+  .whatsapp-float:hover {
+    background-color: #1ebe5b; /* Color ligeramente más oscuro */
+  }
+  
+  /* Estilo del ícono (font-awesome) */
+  .whatsapp-float i {
+    font-size: 30px;         /* Tamaño del icono */
+  }
+  
+  
+
+
+
+
+
+
+  .texto3 {
+    color: orange;
+    font-size: 30px;
+    font-family: "Archivo Black", sans-serif;
+  }
+
+  .texto4 {
+    color: white;
+  }

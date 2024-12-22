@@ -1,0 +1,270 @@
+body {
+    margin: 0;
+      font-family: "Archivo Black", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    background-image: url(fondo.png); 
+
+  }
+
+.resolucion {
+
+    width: 100%;
+
+}
+
+ 
+  
+  
+  .desplazamiento {
+    width: 100%;
+    padding: 15px;
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    z-index: 1000; 
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1px;
+   
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    
+}
+
+
+
+
+
+
+
+
+
+
+.caja {
+  justify-content: center;
+  display: flex;
+}
+
+.a h1 {
+  text-decoration: none;
+}
+
+.aumento-imagen {
+  transition: transform 0.3s ease; /* Suaviza el efecto */
+}
+
+.aumento-imagen:hover {
+  transform: scale(1.4); /* Agranda la imagen un 20% */
+}
+
+.texto1 {
+  color: rgba(255, 255, 255, 0.438);
+  font-size: 30px;
+  font-family: "Archivo Black", sans-serif;
+}
+
+.contenedor-imagen .imagen {
+  position: relative;
+
+}
+
+.imagen img {
+  width: 100%;
+  
+  height: 300px;
+
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: rgba(80, 6, 6, 0.638);
+  width: 100%;
+  height: 0;
+  
+  overflow: hidden;
+  
+}
+
+.overlay img{
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.imagen:hover .overlay{
+  height: 100%;
+  cursor: pointer;
+}
+
+
+.hover-content {
+  
+  background-color: rgb(22, 22, 22);
+  padding-top: 20px;
+
+ 
+}
+
+
+
+.hover-content p {
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+   letter-spacing: 1px;
+   display: flex;
+   justify-content: center;
+
+
+}
+
+
+.hover-content p:hover {
+  color: black;
+}
+
+ /* Estilo del contenedor principal */
+ .contenedor-imagen {
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+ /* Encabezado del contenedor */
+ .imagen {
+  cursor: pointer;
+}
+
+
+
+ /* Contenido oculto inicialmente */
+ .hover-content {
+  max-height: 0;
+  overflow: hidden;
+  background-color: #2a2a2a;
+  padding: 0 15px;
+  transition: max-height 0.3s ease-out;
+}
+
+/* Mostrar contenido al pasar el cursor sobre el contenedor */
+.contenedor-imagen:hover .hover-content {
+  max-height: 150px; /* Ajusta según el contenido */
+  padding: 15px;
+}
+
+
+
+
+
+.enlaces {
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 1px;
+  font-size: 20px;
+  
+}
+
+.enlace {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.texto2 {
+  color: orange;
+  font-family: "Archivo Black", sans-serif;
+}
+
+.llamanos {
+  background-color: rgba(255, 166, 0, 0.774);
+  height: 300px;
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center;    /* Centrar verticalmente */
+}
+
+.enlaces a:hover {
+  color: black;
+}
+
+.navbar-nav .ms-auto .nav a:hover {
+  color: black;
+}
+
+
+
+
+.whatsapp-float {
+  position: fixed;         /* Para que se mantenga fijo al desplazarse */
+  bottom: 20px;            /* Distancia desde la parte inferior */
+  right: 20px;             /* Distancia desde la parte derecha */
+  background-color: #25D366; /* Color de fondo oficial de WhatsApp */
+  color: white;            /* Color del icono */
+  border-radius: 50%;      /* Forma circular */
+  width: 60px;             /* Tamaño del botón */
+  height: 60px;            /* Tamaño del botón */
+  display: flex;           /* Centrar el icono */
+  justify-content: center; /* Centrar el icono horizontalmente */
+  align-items: center;     /* Centrar el icono verticalmente */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Sombra para el botón */
+  z-index: 1000;           /* Asegura que esté por encima de otros elementos */
+  text-decoration: none;   /* Elimina subrayado */
+}
+
+/* Efecto al pasar el cursor */
+.whatsapp-float:hover {
+  background-color: #1ebe5b; /* Color ligeramente más oscuro */
+  width: 65px;             /* Tamaño del botón */
+  height: 65px;            /* Tamaño del botón */
+
+}
+
+/* Estilo del ícono (font-awesome) */
+.whatsapp-float i {
+  font-size: 30px;         /* Tamaño del icono */
+}
+
+.whatsapp-float i:hover {
+  font-size: 40px;         /* Tamaño del icono */
+}
+
+
+.hover {
+  padding: 0;
+  border: 0;
+}
+
+a .texto {
+  display: inline; /* Hace que el párrafo ocupe solo el espacio del texto */
+ 
+}
+
+.texto:hover {
+  color: black;
+
+}
+
+.whatsapp-float2 {
+  position: fixed;         /* Para que se mantenga fijo al desplazarse */
+  bottom: 4px;            /* Distancia desde la parte inferior */
+  right: 85px;             /* Distancia desde la parte derecha */
+ 
+  color: white;            /* Color del icono */
+  border-radius: 50%;      /* Forma circular */
+  width: 60px;             /* Tamaño del botón */
+  height: 60px;            /* Tamaño del botón */
+  display: flex;           /* Centrar el icono */
+  justify-content: center; /* Centrar el icono horizontalmente */
+  align-items: center;     /* Centrar el icono verticalmente */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Sombra para el botón */
+  z-index: 1001;           /* Asegura que esté por encima de otros elementos */
+  text-decoration: none;   /* Elimina subrayado */
+  font-family: "Archivo Black", sans-serif;
+  font-size: 10px;
+}
